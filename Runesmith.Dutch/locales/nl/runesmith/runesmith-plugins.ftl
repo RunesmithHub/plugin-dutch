@@ -259,7 +259,7 @@ plugins-page-links-ignored =
     }
 plugins-page-from-link = Geopend via een koppeling: { $link }
 plugins-page-version = Versie { $version }
-plugins-page-pending = Geïnstalleerd, start opnieuw om in te schakelen
+plugins-page-pending = Geïnstalleerd, herstart nodig
 plugins-page-install-version = { $version } installeren
 plugins-install = Installeren
 plugins-page-installed-from-hub = Versie { $version } is geïnstalleerd vanuit de hub.
