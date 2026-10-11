@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Runesmith.Dutch.Contracts/Runesmith.Dutch.Contracts.csproj" />
+  <Project Path="Runesmith.Dutch/Runesmith.Dutch.csproj" />
+</Solution>

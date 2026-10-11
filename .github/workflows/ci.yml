@@ -1,0 +1,71 @@
+# Builds the pack on Linux and Windows, which checks every translation against its English source, then checks the pack the way the hub does.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions: {}
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  build:
+    name: Build and check the translations on ${{ matrix.system }}
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - system: Linux
+            runner: ubuntu-24.04
+          - system: Windows
+            runner: windows-2025
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up .NET from global.json
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          global-json-file: global.json
+
+      # A missing message, a message English no longer has, a variable that differs or a syntax error fails the build.
+      - name: Build
+        run: dotnet build Runesmith.Dutch.slnx -warnaserror
+
+  hub-check:
+    name: Check as the hub does
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up .NET from global.json
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          global-json-file: global.json
+
+      # nuget.config maps RunesmithHub.* to the hub feed, and the SDK refuses --add-source alongside source mapping.
+      - name: Install the hub tool from the hub feed
+        run: dotnet tool install RunesmithHub.Tool --version 0.1.7 --tool-path "$RUNNER_TEMP/rshub"
+
+      - name: Check the pack
+        run: '"$RUNNER_TEMP/rshub/rshub" check .'

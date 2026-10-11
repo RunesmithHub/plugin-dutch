@@ -1,0 +1,29 @@
+name: A translation can be better
+description: A Dutch text that is wrong, unclear or does not fit where it shows.
+labels: [translation]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where it shows
+      description: The window, menu or dialog, in Runesmith or in a plugin.
+      placeholder: Git, the Commit window
+    validations:
+      required: true
+  - type: input
+    id: now
+    attributes:
+      label: The text now
+    validations:
+      required: true
+  - type: input
+    id: better
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Optional. A screenshot helps when the text is cut off or does not fit.

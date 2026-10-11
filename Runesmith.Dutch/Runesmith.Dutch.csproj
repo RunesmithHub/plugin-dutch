@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- A language pack has no code: the build embeds the files in locales/ and checks them against the English source. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Runesmith.Dutch.Contracts\Runesmith.Dutch.Contracts.csproj" />
+    <PackageReference Include="Runesmith.Sdk" Version="0.1.2" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <!-- The English files of the official plugins, copied from their repositories, so the build checks their translations too. -->
+  <ItemGroup>
+    <RunesmithEnglishSource Include="..\english\runesmith.csharp\*.ftl" TranslationTarget="runesmith.csharp" />
+    <RunesmithEnglishSource Include="..\english\runesmith.java\*.ftl" TranslationTarget="runesmith.java" />
+    <RunesmithEnglishSource Include="..\english\runesmith.git\*.ftl" TranslationTarget="runesmith.git" />
+    <RunesmithEnglishSource Include="..\english\runesmith.github\*.ftl" TranslationTarget="runesmith.github" />
+    <RunesmithEnglishSource Include="..\english\runesmith.gitea\*.ftl" TranslationTarget="runesmith.gitea" />
+  </ItemGroup>
+</Project>
