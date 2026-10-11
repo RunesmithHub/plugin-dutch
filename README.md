@@ -11,7 +11,7 @@ Nederlandstalig? Welkom. Zie je een vertaling die beter kan, open dan een
 
 | Target | File names | Messages |
 | --- | --- | --- |
-| Runesmith | `runesmith-*.ftl`, 11 files | 1,424 |
+| Runesmith | `runesmith-*.ftl`, 11 files | 1,431 |
 | C# (`runesmith.csharp`) | `runesmith.csharp.ftl` | 49 |
 | Java (`runesmith.java`) | `runesmith.java.ftl` | 45 |
 | Git (`runesmith.git`) | `runesmith.git.ftl` | 458 |

@@ -61,3 +61,13 @@ hub-link-parameters = Runesmith weigert { $names }: een koppeling bevat alleen e
 hub-link-versions = Een koppeling bevat hoogstens één versie.
 hub-link-bad-version = '{ $value }' is geen plug-inversie, zoals 1.2.0.
 hub-download-mismatch = De download van { $name } { $version } kwam niet overeen met wat de hub heeft gepubliceerd, dus er is niets geïnstalleerd. Probeer het later opnieuw.
+
+## What each capability lets a plugin do
+
+hub-capability-network = Maakt verbinding met internet of andere computers
+hub-capability-process = Start andere programma's
+hub-capability-filesystem = Leest of schrijft bestanden buiten je project en de eigen opslag
+hub-capability-environment = Leest omgevingsvariabelen, het register of systeeminstellingen
+hub-capability-credentials = Bewaart of leest wachtwoorden en tokens
+hub-capability-native = Voert native code uit
+hub-capability-dynamic-code = Laadt of genereert code tijdens het uitvoeren
