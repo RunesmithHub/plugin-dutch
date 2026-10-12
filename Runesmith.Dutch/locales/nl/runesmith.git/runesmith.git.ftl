@@ -639,3 +639,8 @@ pr-copy-link = Koppeling kopiëren
 
 git-failed = git { $command } is mislukt met afsluitcode { $code }.
 git-not-started = Git kon niet worden gestart: { $reason }. Installeer Git en zorg dat het in het PATH staat.
+
+## Nieuwe projecten.
+
+project-create-repository = Git-repository maken
+project-creating-repository = De Git-repository maken...

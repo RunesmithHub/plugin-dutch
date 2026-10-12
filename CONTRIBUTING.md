@@ -118,7 +118,7 @@ changed. Until a new message is translated it shows in English, so a pack that i
 Install the hub tool from the plugin hub's feed, which this repository's `nuget.config` names, and run its check:
 
 ```bash
-dotnet tool install --global RunesmithHub.Tool --version 0.1.7
+dotnet tool install --global RunesmithHub.Tool --version 0.1.8
 rshub check .
 ```
 

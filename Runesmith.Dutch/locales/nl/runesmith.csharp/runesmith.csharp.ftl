@@ -47,6 +47,7 @@ run-project-unreadable = Het project { $project } kon niet worden gelezen.
 ## The .NET SDKs
 
 dotnet-sdk = .NET SDK
+dotnet-sdk-source = Releases van Microsoft. Runesmith installeert .NET SDK's naast elkaar in één map, en global.json kiest ertussen.
 progress-downloading = Downloaden
 progress-verifying = Verifiëren
 progress-unpacking = Uitpakken

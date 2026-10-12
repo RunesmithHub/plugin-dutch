@@ -56,12 +56,6 @@ editors-default-for = Standaard voor { $pattern }
 editors-set-default-for = Standaardeditor voor { $pattern } instellen...
 editors-default-editor-for = Standaardeditor voor { $pattern }
 editors-text-editor = Teksteditor
-editors-image-viewer = Afbeeldingsviewer
-editors-zoom-out = Uitzoomen (-)
-editors-zoom-in = Inzoomen (+)
-editors-fit = Passend
-editors-fit-tip = Passend maken in het venster (0)
-editors-actual-size-tip = Werkelijke grootte (1)
 
 ## Why a file operation or an edit across files can't be made, undone or redone
 

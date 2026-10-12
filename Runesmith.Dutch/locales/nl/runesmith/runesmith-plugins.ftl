@@ -302,10 +302,7 @@ plugins-local-not-loaded-tip = Een plug-in uit de hub heeft dezelfde id, dus dez
 
 ## Suggestions to install official plugins
 
-plugins-suggestion = Installeer de plug-in { $name } voor { $brings }.
-plugins-suggest-brings-language = aanvullen, problemen en builds
-plugins-suggest-brings-git = commits, branches, verschillen en het logboek
-plugins-suggest-brings-github = pull-requests, reviews en checks
+plugins-suggestion = De plug-in { $name } op de hub werkt met { $handles }. Installeren?
 plugins-suggestion-install = Installeren
 plugins-suggestion-decline = Niet meer voorstellen
 
