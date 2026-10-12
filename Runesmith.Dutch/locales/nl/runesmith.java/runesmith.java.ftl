@@ -46,6 +46,7 @@ run-no-build-tool = JUnit-tests worden via Maven of Gradle uitgevoerd, en de map
 ## The JDKs
 
 jdk = JDK
+jdk-source = Builds van OpenJDK van hun leveranciers: Temurin van Adoptium, de andere zoals de foojay Discovery API ze vermeldt.
 jdk-with-javafx = JDK met JavaFX
 progress-preparing = Voorbereiden
 progress-downloading = Downloaden

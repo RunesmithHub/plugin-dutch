@@ -91,7 +91,7 @@ shell-unfold = Uitvouwen
 shell-fold-all = Alles invouwen
 shell-unfold-all = Alles uitvouwen
 shell-sdks = SDK's...
-shell-sdks-description = .NET SDK's en JDK's tonen, downloaden, bijwerken en verwijderen.
+shell-sdks-description = De SDK's van je talen tonen, downloaden, bijwerken en verwijderen.
 shell-performance-report = Prestatierapport
 shell-performance-report-description = Tonen hoe lang typen, tekenen, kleuren en verzoeken aan taalfuncties duren, als percentielen.
 shell-go-to-implementation-description = Naar de implementaties gaan van de interface, het abstracte lid of het virtuele lid bij de cursor.
@@ -288,7 +288,7 @@ shell-format-selection-description = De geselecteerde regels opmaken met de form
 shell-next-change-description = Naar de volgende regels gaan die verschillen van de basis, zoals de laatste commit.
 shell-rollback-lines-description = De gewijzigde regels bij de cursor of in de selectie terugzetten zoals ze in de basis zijn.
 shell-show-changes-description = Het bestand naast zijn basis tonen, zoals de laatste commit.
-shell-build-description = Het project van de geselecteerde uitvoerconfiguratie bouwen, of de geopende map, zoals de solution ervan met dotnet build.
+shell-build-description = Het project van de geselecteerde uitvoerconfiguratie bouwen, of de geopende map.
 
 ## Leftovers of the toolbar, status bar and appearance
 
