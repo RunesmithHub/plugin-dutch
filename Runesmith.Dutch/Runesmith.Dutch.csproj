@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Runesmith.Dutch.Contracts\Runesmith.Dutch.Contracts.csproj" />
-    <PackageReference Include="Runesmith.Sdk" Version="0.2.0" ExcludeAssets="runtime" />
+    <PackageReference Include="Runesmith.Sdk" Version="0.2.1" ExcludeAssets="runtime" />
   </ItemGroup>
 
   <!-- The English files of the official plugins, copied from their repositories, so the build checks their translations too. -->

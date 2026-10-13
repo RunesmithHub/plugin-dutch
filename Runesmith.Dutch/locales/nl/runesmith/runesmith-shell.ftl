@@ -292,7 +292,6 @@ shell-build-description = Het project van de geselecteerde uitvoerconfiguratie b
 
 ## Leftovers of the toolbar, status bar and appearance
 
-shell-clone-repository = Repository klonen...
 shell-go-to-line-tip = Naar regel gaan
 shell-current = Huidig
 shell-name-required = Typ een naam.
