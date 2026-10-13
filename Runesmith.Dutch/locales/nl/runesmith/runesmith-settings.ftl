@@ -88,7 +88,6 @@ settings-ago-days =
 settings-ago-date = { DATETIME($date, dateStyle: "medium") }
 settings-welcome-new-project = Nieuw project
 settings-welcome-open = Openen
-settings-welcome-clone = Klonen
 settings-welcome-no-recent = Geen recente projecten
 settings-welcome-no-match = Geen project komt overeen
 settings-welcome-no-recent-hint = Open een map of maak een project; de volgende keer staat het hier.

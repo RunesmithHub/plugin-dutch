@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "runesmith.dutch",
   "name": "Dutch Language Pack",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "Runesmith and its official plugins in Dutch (Nederlands).",
   "authors": [
     "Dylan de Beer"
@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/RunesmithHub/plugin-dutch",
   "homepage": "https://docs.runesmith.dev/guide/language",
-  "runesmithApi": "^0.2.0",
+  "runesmithApi": "^0.2.1",
   "projects": {
     "contracts": "Runesmith.Dutch.Contracts/Runesmith.Dutch.Contracts.csproj",
     "implementation": "Runesmith.Dutch/Runesmith.Dutch.csproj"
