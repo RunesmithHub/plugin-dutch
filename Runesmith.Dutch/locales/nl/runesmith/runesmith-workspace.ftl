@@ -56,6 +56,8 @@ workspace-excluded-files = Uitgesloten bestanden
 workspace-excluded-files-description = Globs, gescheiden door puntkomma's, van bestanden en mappen die de Verkenner, Snel openen en zoeken overslaan, naast wat je plug-ins overslaan.
 workspace-restore-the-session = De sessie herstellen
 workspace-restore-the-session-description = De laatste map en de bestanden ervan opnieuw openen wanneer Runesmith start.
+workspace-report-a-stuck-start = Een vastgelopen start melden na (seconden)
+workspace-report-a-stuck-start-description = Als het venster na zoveel seconden nog niet verschijnt, schrijft Runesmith naar een logbestand en naar de terminal waar het vastzit en bij welke plug-in. Met 0 is dit uitgeschakeld. Alleen je gebruikersinstellingen tellen. Wordt actief wanneer Runesmith opnieuw start.
 workspace-local-copies-replace-plugins = Lokale kopieën vervangen plug-ins
 workspace-local-copies-replace-plugins-description = Een plug-in in je plug-insmap laten draaien in plaats van de plug-in met dezelfde id uit de hub, zoals een build waaraan je werkt. De lokale kopie krijgt eigen geheimen en opslag. Alleen je gebruikersinstellingen kunnen dit aanzetten. Wordt actief wanneer Runesmith opnieuw start.
 

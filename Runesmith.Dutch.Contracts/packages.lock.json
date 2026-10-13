@@ -4,14 +4,14 @@
     "net10.0": {
       "Runesmith.Sdk": {
         "type": "Direct",
-        "requested": "[0.2.1, )",
-        "resolved": "0.2.1",
-        "contentHash": "4l2EJsSmS9TbVGktePt558RoSG67dTPAngJbhc0Y6YoMIiCjUgWsFx4PbC4XGuhQqtaXAHsbyY7RivmcTiih1A==",
+        "requested": "[0.2.2, )",
+        "resolved": "0.2.2",
+        "contentHash": "wLrKl6W9+RU+WpzeWrFi/PJ3aHGj7T80qC7pUm4TyuH0XV46IaJfIMaqHCCAswOledh7Rf4tcwbSGYSSlQX5HA==",
         "dependencies": {
           "Avalonia": "12.1.4",
           "Avalonia.Fonts.Inter": "12.1.4",
           "HammerUI": "0.1.1",
-          "Runesmith.Text": "0.2.1",
+          "Runesmith.Text": "0.2.2",
           "System.Composition.AttributedModel": "10.0.12"
         }
       },
@@ -68,8 +68,8 @@
       },
       "Runesmith.Text": {
         "type": "Transitive",
-        "resolved": "0.2.1",
-        "contentHash": "9tB90AVBk1EPXc/3DyQsyzOZm6t1Sm/mW5mIz9cTDQHh1xSDRrBIRDslAodHYemYYQRmq7bBPmOs05vB1OzN2Q=="
+        "resolved": "0.2.2",
+        "contentHash": "OYirPwi7SzHFeI4/0pAu8cQq2wa5tjkKmreuwjh//JZXYiwLWdMjplUksGY0vYgoWu5Pqn6U/bsE1vaeZiq/Cw=="
       },
       "System.Composition.AttributedModel": {
         "type": "Transitive",
