@@ -337,6 +337,10 @@ plugins-safe-mode-explanation = Runesmith is gestart in de veilige modus, die ge
 plugins-start-normally = Normaal starten
 plugins-stay-safe-mode = In de veilige modus blijven
 plugins-safe-mode-header = Runesmith is niet goed gestart
+plugins-incomplete-header = Deze build van Runesmith is onvolledig
+plugins-incomplete-explanation = Sommige bestanden van Runesmith zelf komen uit een andere build, zodat plug-ins voor deze versie niet zouden laden. Runesmith is gestart in de veilige modus, die geen plug-ins laadt. Bouw Runesmith opnieuw of installeer het opnieuw en start daarna opnieuw.
+plugins-incomplete-built-against = { $user } is gebouwd met { $assembly } { $expected } en deze build heeft { $found }.
+plugins-incomplete-api = { $assembly } is { $found } en de plug-in-API is { $expected }.
 
 ## Status lines and badges
 
